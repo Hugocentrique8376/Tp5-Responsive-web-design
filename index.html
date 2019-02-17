@@ -2,27 +2,40 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Rdio - Luke Chesser</title>
-
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 	</head>
 	<body>
+		<div class="container">
+		
 		<header>
+			
 			<div class="wrapper">
+				<div class="row">
+				<div class="col-4">
 				<div class="logo-search">
 					<img class="pull-left" src="img/logo.png" />
 				</div>
-
+				</div>
+				<div class="col-4">
 				<form method="POST" action="index.html">
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
+				</div>
+				<div class="col-4">
 				<div class="user">
 				    <a href="#">Luke Chesser</a>
 				</div>
+				</div>
 			</div>
+		</div>
 		</header>
+		<div class="row">
+		<div class="col-2"> 
 		<aside>
+			
 			<h3>Browse</h3>
 			<nav class="browse">
 				<ul class="main">
@@ -40,7 +53,8 @@
 				</ul>
 			</nav>
 		</aside>
-
+		</div>
+		<div class="col-10">
 		<main>
 			<header>
 				<div class="name-photo">
@@ -72,6 +86,8 @@
 				<a class="station" href="#">Start Station</a>
 			</div>
 			<section id="albums">
+				<div class="row">
+				<div class="col-xs-12 col-xl-4">
 				<article>
 					<figure>
 						<img src="img/album/album_01.png" />
@@ -88,6 +104,8 @@
 					<div class="artist">Joshua Radin</div>
 					<div class="count">11 songs</div>
 				</article>
+				</div>
+				<div class="col-xs-12 col-xl-4">
 				<article>
 					<figure>
 						<img src="img/album/album_03.png" />
@@ -104,6 +122,8 @@
 					<div class="artist">Imagine Dragons</div>
 					<div class="count">11 songs</div>
 				</article>
+				</div>
+				<div class="col-xs-12 col-xl-4">
 				<article>
 					<figure>
 						<img src="img/album/album_05.png" />
@@ -120,6 +140,11 @@
 					<div class="artist">OneRepublic</div>
 					<div class="count">17 songs</div>
 				</article>
+				</div>
+				</div>
+				
+				<div class="row">
+				<div class="col-xs-12 col-xl-4">
 				<article>
 					<figure>
 						<img src="img/album/album_07.png" />
@@ -136,6 +161,8 @@
 					<div class="artist">Vampire Weekend</div>
 					<div class="count">12 songs</div>
 				</article>
+				</div>
+				<div class="col-xs-12 col-xl-4">
 				<article>
 					<figure>
 						<img src="img/album/album_09.png" />
@@ -152,7 +179,16 @@
 					<div class="artist">The National</div>
 					<div class="count">13 songs</div>
 				</article>
+				</div>
+				</div>
+				
 			</section>
 		</main>
-	</body>
+		</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</div>
+</body>
 </html>
